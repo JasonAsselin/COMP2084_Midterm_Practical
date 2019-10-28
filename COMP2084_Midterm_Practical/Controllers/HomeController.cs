@@ -17,7 +17,7 @@ namespace COMP2084_Midterm_Practical.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "This is a webpage application for the practical midterm portion!";
 
             return View();
         }
