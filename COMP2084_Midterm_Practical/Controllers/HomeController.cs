@@ -24,7 +24,7 @@ namespace COMP2084_Midterm_Practical.Controllers
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "This contact info is fake!";
 
             return View();
         }
