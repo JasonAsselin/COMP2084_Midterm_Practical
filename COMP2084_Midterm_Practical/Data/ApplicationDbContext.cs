@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using COMP2084_Midterm_Practical.Models;
 
 namespace COMP2084_Midterm_Practical.Data
 {
@@ -12,5 +13,6 @@ namespace COMP2084_Midterm_Practical.Data
             : base(options)
         {
         }
+        public DbSet<COMP2084_Midterm_Practical.Models.Student> Student { get; set; }
     }
 }
